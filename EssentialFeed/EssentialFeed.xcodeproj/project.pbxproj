@@ -12,6 +12,7 @@
 		0C67CDFC26762134007B772A /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67CDFB26762134007B772A /* EssentialFeedTests.swift */; };
 		0C67CDFD26762134007B772A /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C67CDEF26762134007B772A /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C67CE072676214C007B772A /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67CE062676214C007B772A /* FeedItem.swift */; };
+		0C67CE0926762264007B772A /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67CE0826762264007B772A /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		0C67CDF626762134007B772A /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C67CDFB26762134007B772A /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
 		0C67CE062676214C007B772A /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		0C67CE0826762264007B772A /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				0C67CDEF26762134007B772A /* EssentialFeed.h */,
 				0C67CDF026762134007B772A /* EssentialFeed.docc */,
 				0C67CE062676214C007B772A /* FeedItem.swift */,
+				0C67CE0826762264007B772A /* FeedLoader.swift */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C67CE0926762264007B772A /* FeedLoader.swift in Sources */,
 				0C67CE072676214C007B772A /* FeedItem.swift in Sources */,
 				0C67CDF126762134007B772A /* EssentialFeed.docc in Sources */,
 			);
